@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../api_constraints'
+require_relative '../api_constraints.rb'
 
 describe ApiConstraints do
   let(:api_constraints_v1) { ApiConstraints.new(version: 1) }

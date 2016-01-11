@@ -1,4 +1,4 @@
-require 'api_contraints'
+require_relative '../lib/api_constraints'
 
 Rails.application.routes.draw do
   # API definition
