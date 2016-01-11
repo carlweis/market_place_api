@@ -19,7 +19,6 @@ gem 'simple_form'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
-  gem 'guard-rspec', require: false
 end
 
 group :development do
@@ -28,9 +27,10 @@ group :development do
 end
 
 group :test do
+  gem 'shoulda-matchers', '< 3.0.0', require: false
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'ffaker'
-  gem 'shoulda-matchers'
+  gem 'guard-rspec', require: false
 end
 

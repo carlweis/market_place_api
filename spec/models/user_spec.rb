@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'shoulda/matchers'
 
 RSpec.describe User, type: :model do
   before { @user = FactoryGirl.build(:user)}
