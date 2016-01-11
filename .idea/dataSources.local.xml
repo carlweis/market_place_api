@@ -4,5 +4,8 @@
     <data-source name="Rails market_place_api: development" uuid="102e7222-737f-4825-9098-220473b67df7">
       <auth-required>false</auth-required>
     </data-source>
+    <data-source name="Rails market_place_api: test" uuid="89a0ef5f-024f-483f-8b27-1f2815a8c925">
+      <auth-required>false</auth-required>
+    </data-source>
   </component>
 </project>

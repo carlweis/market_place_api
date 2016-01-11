@@ -9,6 +9,13 @@ gem 'active_model_serializers'
 gem 'devise'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# gems required for Sabisu REST testing
+gem 'sabisu_rails', github: 'IcaliaLabs/sabisu-rails'
+gem 'compass-rails', '~> 2.0.0'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
